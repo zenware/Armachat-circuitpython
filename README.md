@@ -1,24 +1,33 @@
-# Armachat-circuitpython
-New Armachat based on Raspberry Pi PICO an Circuitpython code
+# ARMACHAT CircuitPython
+New ARMACHAT based on CircuitPython
 
-**Software working features:**
+**Supported Models**
+- RaspberryPi Pico
 
-- send message with header and store to memory
-- receive message and parse header, store to memory
-- display message memory with message details like SNR and RSSI
-- count messages in memory by type
-- display some hw details like free memory and power supply voltage, it is good for future battery operation
+**Working Features**
+- Send message with header and store to memory
+- Receive message and parse header, store to memory
+- Display message memory with message details like SNR and RSSI
+- Count messages in memory by type
+- Hardware details like free memory and power supply voltage
 - Terminal display with messages from background systems
 - AES256 encryption
-- message confirmation and status change in memory
-- boot safe mode
+- Message confirmation and status change in memory
+- Boot safe mode
 
 
-**TODO:**
+**TODO**
+- Better LoRa Libray
+  - CAD
+  - Status Detection
+  - Interrupts
+- Contact List
+- Setup and Save Configuration
+- Save Messages
 
-- Need much better LoRa libray with, CAD, status detection, and INTERUPT !!!
-- contact list
-- setup and save configuration
-- save memory to flash
-
-...
+**Development**
+To install the required dependencies, run the following command to install Pipenv and then install the dependencies
+```shell
+pip install --user pipenv
+pipenv install --dev
+```

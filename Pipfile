@@ -1,0 +1,12 @@
+[requires]
+python_version = "3.8"
+
+[packages]
+adafruit-circuitpython-display-text = "2.22.1"
+adafruit-circuitpython-matrixkeypad = "1.2.7"
+adafruit-circuitpython-simple-text-display = "1.2.3"
+adafruit-circuitpython-st7789 = "1.5.5"
+adafruit-circuitpython-rfm9x = "2.2.3"
+
+[dev-packages]
+circuitpython-stubs = "7.1.1"
