@@ -1,9 +1,9 @@
 import board
 import busio
-from armachat.models import Model
+from armachat.models import DeviceModel
 
 
-class ARMACHATCompact(Model):
+class ARMACHATCompact(DeviceModel):
     """
 
     """
