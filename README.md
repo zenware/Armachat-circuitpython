@@ -2,7 +2,10 @@
 New ARMACHAT based on CircuitPython
 
 **Supported Models**
-- RaspberryPi Pico
+- ARMACHAT Compact
+
+**Upcoming Models**
+- ARMACHAT Watch
 
 **Working Features**
 - Send message with header and store to memory
@@ -26,7 +29,8 @@ New ARMACHAT based on CircuitPython
 - Save Messages
 
 **Development**
-To install the required dependencies, run the following command to install Pipenv and then install the dependencies
+To install the required dependencies, run the following command to install
+Pipenv and then install the dependencies:
 ```shell
 pip install --user pipenv
 pipenv install --dev
